@@ -10,4 +10,5 @@ Window_Base<|--Window_Message
 Window_Base<|--Window_ScrollText
 Window_Base<|--Window_MapName
 Window_Base<|--Window_BattleLog
+click Window_Selectable href "https://github.com/Rmymt/RPG-Maker-MZ/blob/main/Window_Selectable.md"
 ```
