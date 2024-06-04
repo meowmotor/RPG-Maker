@@ -1,0 +1,26 @@
+```mermaid
+classDiagram
+direction LR
+Sprite<|--Sprite_Clickable
+Sprite_Clickable<|--Sprite_Button
+Sprite_Clickable<|--Sprite_Picture
+Sprite_Clickable<|--Sprite_Battler
+Sprite_Battler<|--Sprite_Actor
+Sprite_Battler<|--Sprite_Enemy
+Sprite<|--Sprite_Character
+Sprite<|--Sprite_Animation
+Sprite<|--Sprite_AnimationMV
+Sprite<|--Sprite_Damage
+Sprite<|--Sprite_Gauge
+Sprite<|--Sprite_Name
+Sprite<|--Sprite_StateIcon
+Sprite<|--Sprite_StateOverlay
+Sprite<|--Sprite_Weapon
+Sprite<|--Sprite_Balloon
+Sprite<|--Sprite_Timer
+Sprite<|--Sprite_Destination
+Sprite<|--Spriteset_Base
+Spriteset_Base<|--Spriteset_Map
+Spriteset_Base<|--Spriteset_Battle
+TilingSprite<|--Sprite_Battleback
+```
