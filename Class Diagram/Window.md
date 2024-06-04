@@ -51,4 +51,5 @@ Window_ItemList<|--Window_BattleItem
 Window_Command<|--Window_TitleCommand
 Window_Command<|--Window_GameEnd
 Window_Selectable<|--Window_DebugRange
-Window_Selectable<|--Window_DebugEdit```
+Window_Selectable<|--Window_DebugEdit
+```
