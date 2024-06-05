@@ -13,10 +13,10 @@ Game_Actor"1"*--"0..*"Game_Item:_equips
 Game_Actor"1"*--"1"Game_Item:_lastMenuSkill, _lastBattleSkill
 Game_Battler"1"<|--"1"Game_Enemy
 Game_Battler"1"*--"0..*"Game_Action:_actions
-Game_Action"1"*--"1"Game_Item:_item
 Game_Action"1"-->"1"Game_Actor:subject()
 Game_Action"1"-->"1"Game_Enemy:subject()
+Game_Action"1"*--"1"Game_Item:_item
 Game_Battler"1"*--"1"Game_ActionResult:_result
-Game_Troop"1"-->"0..*"Game_Enemy:_enemies
 Game_Troop"1"*--"1"Game_Interpreter:_interpreter
+Game_Troop"1"-->"0..*"Game_Enemy:_enemies
 ```
