@@ -14,6 +14,6 @@ Game_Character<|--Game_Event
 Game_Event"1"*--"1"Game_Interpreter:_interpreter
 Game_Player"1"*--"1"Game_Followers:_followers
 Game_Followers"1"*--"0..*"Game_Follower:_data
-Game_Interpreter"1"*--"1"Error
-Game_Interpreter"1"*--"1"Game_Interpreter:_childInterpreter
+%%Game_Interpreter"1"*--"1"Error
+%%Game_Interpreter"1"*--"1"Game_Interpreter:_childInterpreter
 ```
