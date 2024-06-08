@@ -9,9 +9,9 @@ Game_Party"1"-->"0..*"Game_Actor:_actors
 Game_Actors"1"*--"0..*"Game_Actor:_data
 Game_BattlerBase<|--Game_Battler
 Game_Battler<|--Game_Actor
-Game_Actor"1"-->"0..*"Game_Item:_skills
 Game_Actor"1"*--"0..*"Game_Item:_equips
-Game_Actor"1"*--"1"Game_Item:_lastMenuSkill, _lastBattleSkill
+Game_Actor"1"*--"1"Game_Item:_lastMenuSkill
+Game_Actor"1"*--"1"Game_Item:_lastBattleSkill
 Game_Battler<|--Game_Enemy
 Game_Battler"1"*--"0..*"Game_Action:_actions
 Game_Action"1"-->"1"Game_Actor:subject()
