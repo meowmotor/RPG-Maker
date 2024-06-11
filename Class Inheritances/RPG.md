@@ -1,31 +1,31 @@
 ```mermaid
 classDiagram
 direction LR
-`RPG.Animation`
-`RPG.Animation.Timing`
-`RPG.AudioFile`
-`RPG.BattleEventPage`
-`RPG.BattleEventPage.Conditions`
-`RPG.CommonEvent`
-`RPG.Damage`
-`RPG.Effect`
-`RPG.EventCommand`
-`RPG.EventPage`
-`RPG.EventPage.Conditions`
-`RPG.EventPage.Image`
-`RPG.MapInfo`
-`RPG.MoveCommand`
-`RPG.MoveRoute`
-`RPG.System`
-`RPG.System.Advanced`
-`RPG.System.titleCommandWindow`
-`RPG.System.AttackMotion`
-`RPG.System.Terms`
-`RPG.System.TestBattler`
-`RPG.System.Vehicle`
-`RPG.Trait`
-`RPG.Troop`
-`RPG.Troop.Member`
+class `RPG.Animation`
+class `RPG.Animation.Timing`
+class `RPG.AudioFile`
+class `RPG.BattleEventPage`
+class `RPG.BattleEventPage.Conditions`
+class `RPG.CommonEvent`
+class `RPG.Damage`
+class `RPG.Effect`
+class `RPG.EventCommand`
+class `RPG.EventPage`
+class `RPG.EventPage.Conditions`
+class `RPG.EventPage.Image`
+class `RPG.MapInfo`
+class `RPG.MoveCommand`
+class `RPG.MoveRoute`
+class `RPG.System`
+class `RPG.System.Advanced`
+class `RPG.System.titleCommandWindow`
+class `RPG.System.AttackMotion`
+class `RPG.System.Terms`
+class `RPG.System.TestBattler`
+class `RPG.System.Vehicle`
+class `RPG.Trait`
+class `RPG.Troop`
+class `RPG.Troop.Member`
 `RPG.MetaData`<|--`RPG.Actor`
 `RPG.MetaData`<|--`RPG.Class`
 `RPG.MetaData`<|--`RPG.Class.Learning`
