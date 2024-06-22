@@ -18,5 +18,6 @@ Game_Action"1"-->"1"Game_Actor:subject()
 Game_Action"1"-->"1"Game_Enemy:subject()
 Game_Action"1"*--"1"Game_Item:_item
 Game_Battler"1"*--"1"Game_ActionResult:_result
+Game_Battler-->Game_ActionResult:result()
 Game_Troop"1"*--"0..*"Game_Enemy:_enemies
 ```
