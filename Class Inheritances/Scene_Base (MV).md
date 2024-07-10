@@ -1,0 +1,26 @@
+```mermaid
+classDiagram
+direction LR
+`PIXI.Container`<|--Stage
+Stage<|--Scene_Base
+Scene_Base<|--Scene_Boot
+Scene_Base<|--Scene_Title
+Scene_Base<|--Scene_Map
+Scene_Base<|--Scene_MenuBase
+Scene_MenuBase<|--Scene_Menu
+Scene_MenuBase<|--Scene_ItemBase
+Scene_ItemBase<|--Scene_Item
+Scene_ItemBase<|--Scene_Skill
+Scene_MenuBase<|--Scene_Equip
+Scene_MenuBase<|--Scene_Status
+Scene_MenuBase<|--Scene_Options
+Scene_MenuBase<|--Scene_File
+Scene_File<|--Scene_Save
+Scene_File<|--Scene_Load
+Scene_MenuBase<|--Scene_GameEnd
+Scene_MenuBase<|--Scene_Shop
+Scene_MenuBase<|--Scene_Name
+Scene_MenuBase<|--Scene_Debug
+Scene_Base<|--Scene_Battle
+Scene_Base<|--Scene_Gameover
+```
