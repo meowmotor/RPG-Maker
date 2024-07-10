@@ -22,5 +22,9 @@ Sprite<|--Sprite_Destination
 Sprite<|--Spriteset_Base
 Spriteset_Base<|--Spriteset_Map
 Spriteset_Base<|--Spriteset_Battle
+```
+```mermaid
+classDiagram
+direction LR
 TilingSprite<|--Sprite_Battleback
 ```
