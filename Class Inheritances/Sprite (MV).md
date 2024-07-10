@@ -1,6 +1,7 @@
 ```mermaid
 classDiagram
 direction LR
+`PIXI.Sprite`<|--Sprite
 Sprite<|--Sprite_Base
 Sprite<|--Sprite_Button
 Sprite_Base<|--Sprite_Character
