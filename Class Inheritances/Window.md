@@ -1,17 +1,13 @@
 ```mermaid
 classDiagram
 direction LR
+`PIXI.Container`<|--Window
 Window<|--Window_Base
 Window_Base<|--Window_Scrollable
 Window_Scrollable<|--Window_Selectable
-Window_Base<|--Window_Help
-Window_Base<|--Window_NameBox
-Window_Base<|--Window_Message
-Window_Base<|--Window_ScrollText
-Window_Base<|--Window_MapName
-Window_Base<|--Window_BattleLog
 Window_Selectable<|--Window_Command
 Window_Command<|--Window_HorzCommand
+Window_Base<|--Window_Help
 Window_Selectable<|--Window_Gold
 Window_Selectable<|--Window_StatusBase
 Window_Command<|--Window_MenuCommand
@@ -38,9 +34,14 @@ Window_Selectable<|--Window_ShopNumber
 Window_StatusBase<|--Window_ShopStatus
 Window_StatusBase<|--Window_NameEdit
 Window_Selectable<|--Window_NameInput
+Window_Base<|--Window_NameBox
 Window_Command<|--Window_ChoiceList
 Window_Selectable<|--Window_NumberInput
 Window_ItemList<|--Window_EventItem
+Window_Base<|--Window_Message
+Window_Base<|--Window_ScrollText
+Window_Base<|--Window_MapName
+Window_Base<|--Window_BattleLog
 Window_Command<|--Window_PartyCommand
 Window_Command<|--Window_ActorCommand
 Window_StatusBase<|--Window_BattleStatus
