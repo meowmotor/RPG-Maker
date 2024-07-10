@@ -1,6 +1,7 @@
 ```mermaid
 classDiagram
 direction LR
+`PIXI.Container`<|--Window
 Window<|--Window_Base
 Window_Base<|--Window_Selectable
 Window_Selectable<|--Window_Command
