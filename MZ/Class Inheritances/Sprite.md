@@ -27,5 +27,6 @@ Spriteset_Base<|--Spriteset_Battle
 ```mermaid
 classDiagram
 direction LR
+`PIXI.TilingSprite`<|--TilingSprite
 TilingSprite<|--Sprite_Battleback
 ```
