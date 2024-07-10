@@ -1,8 +1,7 @@
 ```mermaid
 classDiagram
 direction LR
-PIXI<|--Container
-Container<|--Stage
+`PIXI.Container`<|--Stage
 Stage<|--Scene_Base
 Scene_Base<|--Scene_Boot
 Scene_Base<|--Scene_Title
