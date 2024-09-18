@@ -4,6 +4,7 @@ direction LR
 `PIXI.Container`<|--Stage
 Stage<|--Scene_Base
 Scene_Base<|--Scene_Boot
+Scene_Base<|--Scene_Splash
 Scene_Base<|--Scene_Title
 Scene_Base<|--Scene_Message
 Scene_Message<|--Scene_Map
