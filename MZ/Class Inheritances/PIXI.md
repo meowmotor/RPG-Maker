@@ -3,6 +3,20 @@ classDiagram
 direction LR
 `PIXI.Point`<|--Point
 `PIXI.Rectangle`<|--Rectangle
+`PIXI.System`<|--PIXI.ObjectRenderer
+`PIXI.ObjectRenderer`<|--`Tilemap.Renderer`
+`PIXI.Shader`<|--PIXI.Filter
+`PIXI.Filter`<|--ColorFilter
+```
+```mermaid
+classDiagram
+direction LR
+`PIXI.utils.EventEmitter`<|--PIXI.DisplayObject
+`PIXI.DisplayObject`<|--PIXI.Container
+`PIXI.Container`<|--PIXI.Graphics
+`PIXI.Container`<|--PIXI.Sprite
+`PIXI.Sprite`<|--PIXI.TilingSprite
+`PIXI.TilingSprite`<|--TilingSprite
 `PIXI.Sprite`<|--Sprite
 `PIXI.Container`<|--ScreenSprite
 `PIXI.Container`<|--Window
@@ -12,7 +26,4 @@ direction LR
 `PIXI.Container`<|--Tilemap
 `PIXI.Container`<|--`Tilemap.Layer`
 `PIXI.Container`<|--`Tilemap.CombinedLayer`
-`PIXI.ObjectRenderer`<|--`Tilemap.Renderer`
-`PIXI.TilingSprite`<|--TilingSprite
-`PIXI.Filter`<|--ColorFilter
 ```
